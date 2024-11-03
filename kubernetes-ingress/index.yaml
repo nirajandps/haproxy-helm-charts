@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  kubernetes-ingress:
+  - annotations:
+      artifacthub.io/changes: |
+        - Add envFrom to Deployment and Deamonset (#256)
+        - Remove pod annotations from deployment (#259)
+        - Add possibility to set crdjob annotations (#264)
+    apiVersion: v2
+    appVersion: 3.0.4
+    created: "2024-11-04T06:52:18.307359+11:00"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 6dda28180878c5ca57ad2970d660422bb4c19a9dcef5d01681c2dc29bf951d25
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - https://nirajandps.github.io/haproxy-helm-charts/kubernetes-ingress-1.42.0.tgz
+    version: 1.42.0
+generated: "2024-11-04T06:52:18.303888+11:00"
