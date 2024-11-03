@@ -36,8 +36,9 @@ rbac:
 ## Create namespace
 ## https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/
 namespace:
-  create: false
-
+  create: true
+  name: haproxy-ingress
+  
 ## Configure Service Account
 ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
 serviceAccount:
