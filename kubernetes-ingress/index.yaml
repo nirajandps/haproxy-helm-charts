@@ -8,9 +8,9 @@ entries:
         - Add possibility to set crdjob annotations (#264)
     apiVersion: v2
     appVersion: 3.0.4
-    created: "2024-11-04T06:52:18.307359+11:00"
+    created: "2024-11-04T07:02:46.053164+11:00"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
-    digest: 6dda28180878c5ca57ad2970d660422bb4c19a9dcef5d01681c2dc29bf951d25
+    digest: a14dd303588cd90a642e0a93506884d1b7d0976958243bd6c30863e95cf09add
     home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
     icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
     keywords:
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://nirajandps.github.io/haproxy-helm-charts/kubernetes-ingress-1.42.0.tgz
     version: 1.42.0
-generated: "2024-11-04T06:52:18.303888+11:00"
+generated: "2024-11-04T07:02:46.050608+11:00"
